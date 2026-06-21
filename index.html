@@ -32,9 +32,194 @@
         <!-- Main Book Grid -->
         <main class="book-grid" id="book-grid">
             
-            <!-- Book 1: مقدمة ابن خلدون -->
+            <!-- Book 1: طوق الحمامة -->
             <article class="book-card" id="book-1">
                 <div class="status-badge" id="badge-1">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>تم الحجز بنجاح ✨</span>
+                </div>
+                <div class="cover-wrapper">
+                    <div class="book-cover">
+                        <!-- Custom SVG Cover: Emerald & Islamic Geometry -->
+                        <svg viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="emerald-grad" x1="0" y1="0" x2="1" y2="1">
+                                    <stop offset="0%" stop-color="#041812"/>
+                                    <stop offset="100%" stop-color="#0e3a2d"/>
+                                </linearGradient>
+                            </defs>
+                            <!-- Cover Background -->
+                            <rect width="200" height="300" fill="url(#emerald-grad)"/>
+                            <!-- Outer Gold Border -->
+                            <rect x="10" y="10" width="180" height="280" rx="4" fill="none" stroke="#d4af37" stroke-width="1.5" opacity="0.8"/>
+                            <rect x="14" y="14" width="172" height="272" rx="2" fill="none" stroke="#d4af37" stroke-width="0.5" opacity="0.5"/>
+                            
+                            <!-- Islamic Star Center Design -->
+                            <g transform="translate(100, 160)" stroke="#d4af37" stroke-width="1" fill="none" opacity="0.6">
+                                <circle cx="0" cy="0" r="28" stroke-width="0.5"/>
+                                <circle cx="0" cy="0" r="12" stroke-width="0.5"/>
+                                <path d="M-20,-20 L20,20 M-20,20 L20,-20 M0,-28 L0,28 M-28,0 L28,0" stroke-width="0.5"/>
+                                <polygon points="0,-25 18,-18 25,0 18,18 0,25 -18,18 -25,0 -18,-18" stroke-width="0.75"/>
+                                <polygon points="0,-25 -18,-18 -25,0 -18,18 0,25 18,18 25,0 18,-18" stroke-width="0.75" transform="rotate(22.5)"/>
+                            </g>
+
+                            <!-- Book Spine Shadow -->
+                            <rect x="0" y="0" width="8" height="300" fill="black" opacity="0.3"/>
+                            
+                            <!-- Typography -->
+                            <text x="100" y="70" text-anchor="middle" font-family="'Amiri', serif" font-weight="bold" font-size="18" fill="#d4af37">طوق الحمامة</text>
+                            <text x="100" y="90" text-anchor="middle" font-family="'Cairo', sans-serif" font-weight="300" font-size="7" fill="rgba(212,175,55,0.75)" letter-spacing="1">في الألفة والألاف</text>
+                            <line x1="60" y1="102" x2="140" y2="102" stroke="#d4af37" stroke-width="0.5" opacity="0.5"/>
+                            <text x="100" y="245" text-anchor="middle" font-family="'Amiri', serif" font-size="10" fill="rgba(212, 175, 55, 0.7)">ابن حزم الأندلسي</text>
+                        </svg>
+                    </div>
+                </div>
+                <h2 class="book-title">طوق الحمامة</h2>
+                <p class="book-author">ابن حزم الأندلسي</p>
+                <p class="book-desc">كتاب فريد في تصوير عاطفة الحب الإنساني وتحليل أبعاده النفسية بأسلوب أدبي كلاسيكي بليغ وشعر وجداني دقيق.</p>
+                <button class="btn-reserve" id="btn-1" data-book-id="1" data-book-title="طوق الحمامة">احجز الآن</button>
+            </article>
+
+            <!-- Book 2: حي بن يقظان -->
+            <article class="book-card" id="book-2">
+                <div class="status-badge" id="badge-2">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>تم الحجز بنجاح ✨</span>
+                </div>
+                <div class="cover-wrapper">
+                    <div class="book-cover">
+                        <!-- Custom SVG Cover: Midnight Celestial -->
+                        <svg viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="midnight-grad" x1="0" y1="0" x2="1" y2="1">
+                                    <stop offset="0%" stop-color="#020914"/>
+                                    <stop offset="100%" stop-color="#0e2340"/>
+                                </linearGradient>
+                            </defs>
+                            <rect width="200" height="300" fill="url(#midnight-grad)"/>
+                            <rect x="10" y="10" width="180" height="280" rx="4" fill="none" stroke="#d4af37" stroke-width="1.5" opacity="0.8"/>
+                            <rect x="14" y="14" width="172" height="272" rx="2" fill="none" stroke="#d4af37" stroke-width="0.5" opacity="0.5"/>
+                            
+                            <!-- Crescent and Horizon Art -->
+                            <g transform="translate(100, 160)" stroke="#d4af37" stroke-width="0.75" fill="none" opacity="0.6">
+                                <path d="M-60,30 C-30,10 30,10 60,30" stroke-width="0.5"/>
+                                <path d="M-60,38 C-30,18 30,18 60,38" stroke-width="0.25"/>
+                                <path d="M-15,-20 A 20 20 0 1 0 15 10 A 16 16 0 1 1 -15 -20" fill="#d4af37" stroke="none" opacity="0.8"/>
+                                <circle cx="-35" cy="-25" r="1" fill="#d4af37" stroke="none"/>
+                                <circle cx="35" cy="-15" r="0.75" fill="#d4af37" stroke="none"/>
+                                <circle cx="10" cy="-35" r="1.25" fill="#d4af37" stroke="none"/>
+                            </g>
+
+                            <rect x="0" y="0" width="8" height="300" fill="black" opacity="0.3"/>
+                            
+                            <text x="100" y="70" text-anchor="middle" font-family="'Amiri', serif" font-weight="bold" font-size="18" fill="#d4af37">حي بن يقظان</text>
+                            <text x="100" y="90" text-anchor="middle" font-family="'Cairo', sans-serif" font-weight="300" font-size="7" fill="rgba(212,175,55,0.75)" letter-spacing="1">رواية الفطرة والمعرفة</text>
+                            <line x1="60" y1="102" x2="140" y2="102" stroke="#d4af37" stroke-width="0.5" opacity="0.5"/>
+                            <text x="100" y="245" text-anchor="middle" font-family="'Amiri', serif" font-size="10" fill="rgba(212, 175, 55, 0.7)">ابن طفيل الأندلسي</text>
+                        </svg>
+                    </div>
+                </div>
+                <h2 class="book-title">حي بن يقظان</h2>
+                <p class="book-author">ابن طفيل</p>
+                <p class="book-desc">رواية فلسفية مذهلة تبحث في العقل البشري وقدرته الفطرية على بلوغ أسمى الحقائق الكونية والروحية بمعزل عن المجتمع.</p>
+                <button class="btn-reserve" id="btn-2" data-book-id="2" data-book-title="حي بن يقظان">احجز الآن</button>
+            </article>
+
+            <!-- Book 3: المقدمة (Original) -->
+            <article class="book-card" id="book-3">
+                <div class="status-badge" id="badge-3">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>تم الحجز بنجاح ✨</span>
+                </div>
+                <div class="cover-wrapper">
+                    <div class="book-cover">
+                        <!-- Custom SVG Cover: Terracotta Architectural Geometric -->
+                        <svg viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="terracotta-grad" x1="0" y1="0" x2="1" y2="1">
+                                    <stop offset="0%" stop-color="#230906"/>
+                                    <stop offset="100%" stop-color="#4d1b11"/>
+                                </linearGradient>
+                            </defs>
+                            <rect width="200" height="300" fill="url(#terracotta-grad)"/>
+                            <rect x="10" y="10" width="180" height="280" rx="4" fill="none" stroke="#d4af37" stroke-width="1.5" opacity="0.8"/>
+                            <rect x="14" y="14" width="172" height="272" rx="2" fill="none" stroke="#d4af37" stroke-width="0.5" opacity="0.5"/>
+                            
+                            <!-- Architectural Line Art -->
+                            <g transform="translate(100, 160)" stroke="#d4af37" stroke-width="0.75" fill="none" opacity="0.6">
+                                <path d="M-40,30 L-40,0 C-40,-30 40,-30 40,0 L40,30 Z" stroke-width="0.75"/>
+                                <path d="M-30,30 L-30,5 C-30,-20 30,-20 30,5 L30,30 Z" stroke-width="0.5" opacity="0.7"/>
+                                <polygon points="0,-12 12,0 0,12 -12,0" stroke-width="0.5"/>
+                                <line x1="-40" y1="30" x2="40" y2="30" stroke-width="1"/>
+                            </g>
+
+                            <rect x="0" y="0" width="8" height="300" fill="black" opacity="0.3"/>
+                            
+                            <text x="100" y="70" text-anchor="middle" font-family="'Amiri', serif" font-weight="bold" font-size="20" fill="#d4af37">المقدمة</text>
+                            <text x="100" y="92" text-anchor="middle" font-family="'Cairo', sans-serif" font-weight="300" font-size="7" fill="rgba(212,175,55,0.75)" letter-spacing="1">تأسيس علم العمران</text>
+                            <line x1="60" y1="104" x2="140" y2="104" stroke="#d4af37" stroke-width="0.5" opacity="0.5"/>
+                            <text x="100" y="245" text-anchor="middle" font-family="'Amiri', serif" font-size="10" fill="rgba(212, 175, 55, 0.7)">ابن خلدون</text>
+                        </svg>
+                    </div>
+                </div>
+                <h2 class="book-title">المقدمة</h2>
+                <p class="book-author">ابن خلدون</p>
+                <p class="book-desc">المؤلف التأسيسي الأهم الذي وضع الأسس والمنهجية الحديثة لعلم الاجتماع، وفلسفة التاريخ وحركة الأمم والدول.</p>
+                <button class="btn-reserve" id="btn-3" data-book-id="3" data-book-title="المقدمة">احجز الآن</button>
+            </article>
+
+            <!-- Book 4: النبي -->
+            <article class="book-card" id="book-4">
+                <div class="status-badge" id="badge-4">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>تم الحجز بنجاح ✨</span>
+                </div>
+                <div class="cover-wrapper">
+                    <div class="book-cover">
+                        <!-- Custom SVG Cover: Cosmic Purple Solar -->
+                        <svg viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="purple-grad" x1="0" y1="0" x2="1" y2="1">
+                                    <stop offset="0%" stop-color="#140321"/>
+                                    <stop offset="100%" stop-color="#3c0a5a"/>
+                                </linearGradient>
+                            </defs>
+                            <rect width="200" height="300" fill="url(#purple-grad)"/>
+                            <rect x="10" y="10" width="180" height="280" rx="4" fill="none" stroke="#d4af37" stroke-width="1.5" opacity="0.8"/>
+                            <rect x="14" y="14" width="172" height="272" rx="2" fill="none" stroke="#d4af37" stroke-width="0.5" opacity="0.5"/>
+                            
+                            <!-- Cosmic Solar Rays Art -->
+                            <g transform="translate(100, 160)" stroke="#d4af37" stroke-width="0.75" fill="none" opacity="0.6">
+                                <circle cx="0" cy="0" r="16" stroke-width="1"/>
+                                <circle cx="0" cy="0" r="8" stroke-width="0.5"/>
+                                <line x1="0" y1="-16" x2="0" y2="-45" stroke-width="0.75"/>
+                                <line x1="0" y1="16" x2="0" y2="45" stroke-width="0.75"/>
+                                <line x1="-16" y1="0" x2="-45" y2="0" stroke-width="0.75"/>
+                                <line x1="16" y1="0" x2="45" y2="0" stroke-width="0.75"/>
+                                <line x1="-11" y1="-11" x2="-32" y2="-32" stroke-width="0.5" opacity="0.8"/>
+                                <line x1="11" y1="11" x2="32" y2="32" stroke-width="0.5" opacity="0.8"/>
+                                <line x1="-11" y1="11" x2="-32" y2="32" stroke-width="0.5" opacity="0.8"/>
+                                <line x1="11" y1="-11" x2="32" y2="-32" stroke-width="0.5" opacity="0.8"/>
+                            </g>
+
+                            <rect x="0" y="0" width="8" height="300" fill="black" opacity="0.3"/>
+                            
+                            <text x="100" y="70" text-anchor="middle" font-family="'Amiri', serif" font-weight="bold" font-size="22" fill="#d4af37">النبي</text>
+                            <text x="100" y="92" text-anchor="middle" font-family="'Cairo', sans-serif" font-weight="300" font-size="7" fill="rgba(212,175,55,0.75)" letter-spacing="1">مواعظ المحبة والحياة</text>
+                            <line x1="60" y1="104" x2="140" y2="104" stroke="#d4af37" stroke-width="0.5" opacity="0.5"/>
+                            <text x="100" y="245" text-anchor="middle" font-family="'Amiri', serif" font-size="10" fill="rgba(212, 175, 55, 0.7)">جبران خليل جبران</text>
+                        </svg>
+                    </div>
+                </div>
+                <h2 class="book-title">النبي</h2>
+                <p class="book-author">جبران خليل جبران</p>
+                <p class="book-desc">منظومة نثرية خالدة تعبّر عن أعمق الرؤى الفلسفية والصوفية في الحب، العمل، الموت، والحرية الإنسانية.</p>
+                <button class="btn-reserve" id="btn-4" data-book-id="4" data-book-title="النبي">احجز الآن</button>
+            </article>
+
+            <!-- Book 5: مقدمة ابن خلدون (New Variant) -->
+            <article class="book-card" id="book-5">
+                <div class="status-badge" id="badge-5">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
                     <span>تم الحجز بنجاح ✨</span>
                 </div>
@@ -54,15 +239,12 @@
                             
                             <!-- Stone Architectural Foundation & Islamic Lattice -->
                             <g stroke="#d4af37" stroke-width="0.75" fill="none" opacity="0.55" transform="translate(0, 30)">
-                                <!-- Foundation blocks -->
                                 <rect x="30" y="195" width="140" height="18" rx="1"/>
                                 <rect x="42" y="177" width="116" height="18" rx="1"/>
                                 <rect x="56" y="159" width="88" height="18" rx="1"/>
-                                <!-- Grid Lines -->
                                 <line x1="30" y1="195" x2="170" y2="195"/>
                                 <line x1="42" y1="177" x2="158" y2="177"/>
                                 <line x1="56" y1="159" x2="144" y2="159"/>
-                                <!-- Upper grid/lattice design -->
                                 <path d="M 60,110 L 100,150 L 140,110 M 60,110 L 100,70 L 140,110" stroke-width="0.5"/>
                                 <path d="M 80,110 L 100,130 L 120,110 M 80,110 L 100,90 L 120,110" stroke-width="0.25"/>
                             </g>
@@ -79,12 +261,12 @@
                 <h2 class="book-title">مقدمة ابن خلدون</h2>
                 <p class="book-author">ابن خلدون</p>
                 <p class="book-desc">ديوانُ المبتدأ والخبر في تاريخ العرب والعجم، وضع فيه حجر الأساس لعلم الاجتماع، مستقرئاً سنن العمران وتأسيس الدول وقوانين التاريخ الكونية.</p>
-                <button class="btn-reserve" id="btn-1" data-book-id="1" data-book-title="مقدمة ابن خلدون">احجز الآن</button>
+                <button class="btn-reserve" id="btn-5" data-book-id="5" data-book-title="مقدمة ابن خلدون">احجز الآن</button>
             </article>
 
-            <!-- Book 2: تهافت الفلاسفة -->
-            <article class="book-card" id="book-2">
-                <div class="status-badge" id="badge-2">
+            <!-- Book 6: تهافت الفلاسفة -->
+            <article class="book-card" id="book-6">
+                <div class="status-badge" id="badge-6">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
                     <span>تم الحجز بنجاح ✨</span>
                 </div>
@@ -108,10 +290,8 @@
                             
                             <!-- Fractured Geometry -->
                             <g stroke="#d4af37" stroke-width="0.5" fill="none" opacity="0.5">
-                                <!-- Left fractured triangles -->
                                 <polygon points="12,140 40,120 30,165" />
                                 <polygon points="14,190 48,185 36,215" />
-                                <!-- Right fractured triangles -->
                                 <polygon points="188,135 155,115 168,160" />
                                 <polygon points="186,180 152,190 164,220" />
                             </g>
@@ -133,12 +313,12 @@
                 <h2 class="book-title">تهافت الفلاسفة</h2>
                 <p class="book-author">أبو حامد الغزالي</p>
                 <p class="book-desc">معركةٌ عقليةٌ كبرى زلزل بها حُجّة الإسلام أركان المذاهب الفلسفية اليونانية، واضعاً حدوداً صارمة للعقل ومنتصراً للوحي واليقين الإلهي الباطن.</p>
-                <button class="btn-reserve" id="btn-2" data-book-id="2" data-book-title="تهافت الفلاسفة">احجز الآن</button>
+                <button class="btn-reserve" id="btn-6" data-book-id="6" data-book-title="تهافت الفلاسفة">احجز الآن</button>
             </article>
 
-            <!-- Book 3: وحي القلم -->
-            <article class="book-card" id="book-3">
-                <div class="status-badge" id="badge-3">
+            <!-- Book 7: وحي القلم -->
+            <article class="book-card" id="book-7">
+                <div class="status-badge" id="badge-7">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
                     <span>تم الحجز بنجاح ✨</span>
                 </div>
@@ -158,10 +338,8 @@
                             
                             <!-- 8-Point Star and Calligraphy Reed Pen -->
                             <g transform="translate(100, 160)" stroke="#d4af37" stroke-width="0.75" fill="none" opacity="0.6">
-                                <!-- Star -->
                                 <polygon points="0,-35 25,-25 35,0 25,25 0,35 -25,25 -35,0 -25,-25" />
                                 <polygon points="0,-35 -25,-25 -35,0 -25,25 0,35 25,25 35,0 25,-25" transform="rotate(22.5)" />
-                                <!-- Reed Pen Outline -->
                                 <path d="M -3,-20 L 3,-20 L 2,15 L 0,25 L -2,15 Z" fill="none" stroke-width="1"/>
                                 <line x1="0" y1="-20" x2="0" y2="20" stroke-width="0.5"/>
                             </g>
@@ -178,12 +356,12 @@
                 <h2 class="book-title">وحي القلم</h2>
                 <p class="book-author">مصطفى صادق الرافعي</p>
                 <p class="book-desc">شلالٌ من البيانِ القرآنيِّ الرصين، ينسكبُ في مقالاتٍ وقصصٍ تجمعُ بينَ عذوبةِ الوجدانِ وجلالِ الفكرةِ، لتبني صرحاً للأدبِ الخالد.</p>
-                <button class="btn-reserve" id="btn-3" data-book-id="3" data-book-title="وحي القلم">احجز الآن</button>
+                <button class="btn-reserve" id="btn-7" data-book-id="7" data-book-title="وحي القلم">احجز الآن</button>
             </article>
 
-            <!-- Book 4: رسالة الغفران -->
-            <article class="book-card" id="book-4">
-                <div class="status-badge" id="badge-4">
+            <!-- Book 8: رسالة الغفران -->
+            <article class="book-card" id="book-8">
+                <div class="status-badge" id="badge-8">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
                     <span>تم الحجز بنجاح ✨</span>
                 </div>
@@ -203,10 +381,7 @@
                             
                             <!-- Islamic Arch and Void Circles -->
                             <g stroke="#d4af37" stroke-width="0.75" fill="none" opacity="0.55">
-                                <!-- Arch silhouette -->
                                 <path d="M 60,225 L 60,165 C 60,135 78,112 100,98 C 122,112 140,135 140,165 L 140,225 Z" stroke-width="1" />
-                                
-                                <!-- Concentric Void Circles inside Arch -->
                                 <circle cx="100" cy="165" r="26" stroke-width="0.5" opacity="0.4" />
                                 <circle cx="100" cy="165" r="16" stroke-width="0.5" opacity="0.5" />
                                 <circle cx="100" cy="165" r="8" stroke-width="0.5" opacity="0.6" />
@@ -224,7 +399,7 @@
                 <h2 class="book-title">رسالة الغفران</h2>
                 <p class="book-author">أبو العلاء المعري</p>
                 <p class="book-desc">ملحمةٌ نقديةٌ ساخرةٌ تسبحُ في فلك الخيال واللغة، نسجها رهينُ المحبسينِ برؤيةٍ فلسفيةٍ تتهكمُ على ادعاءات البشر وصراعاتهم.</p>
-                <button class="btn-reserve" id="btn-4" data-book-id="4" data-book-title="رسالة الغفران">احجز الآن</button>
+                <button class="btn-reserve" id="btn-8" data-book-id="8" data-book-title="رسالة الغفران">احجز الآن</button>
             </article>
 
         </main>
